@@ -1,0 +1,89 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Cyan2: hsl(179, 62%, 60%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+.upper-section h2{
+    color: var(--Cyan);
+    padding: 20px 0;
+}
+.money-back{
+    color: var(--BrightYellow);
+    padding-bottom: 10px;
+}
+.community{
+    color: var(--GrayishBlue);
+}
+body{
+    background-color: rgb(237, 244, 247);
+}
+.upper-section{
+    background-color: white;
+    padding: 25px;
+}
+.lower-section{
+    display: flex;
+    color: var(--LightGray);
+}
+.left-side{
+    padding: 25px;
+    background-color: var(--Cyan);
+    flex-basis: 100%;
+}
+.right-side{
+    padding: 25px;
+    background-color: var(--Cyan2);
+    flex-basis: 100%;
+}
+span{
+    font-size: 22px;
+    color: white;
+
+}
+h4{
+    color: white;
+    padding-bottom: 10px;
+}
+.lower-section p{
+    line-height: 20px;
+    font-size: 13px;
+    c
+}
+button{
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--BrightYellow);
+    color: var(--LightGray);
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+.mm{
+    margin-top: 20px;
+}
+.pp{
+    margin-top: 20px;
+    color: lightblue
+}
